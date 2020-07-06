@@ -8,6 +8,22 @@
     position: relative;
 }
 
+@media (max-width: 450px) {
+    .hero-title {
+    width: 300px;
+    height: 500px;
+    }
+}
+
+@media (max-width: 350px) {
+    .hero-title {
+    width: 250px;
+    height: 460px;
+    margin-left: 1.3rem;
+    }
+}
+
+
 .hero-title-contents {
     font-family: "JungleJam";
     text-align: center;

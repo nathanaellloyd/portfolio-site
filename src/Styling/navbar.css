@@ -24,3 +24,11 @@ ul {
     color: black; 
     transition: all 0.3s;
 }
+
+.link:hover {
+    background-color: rgba(173, 216, 230, 0.7);
+}
+
+.activeLink  {
+    background-color: rgba(173, 216, 230, 0.7);
+}
