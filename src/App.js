@@ -1,18 +1,24 @@
 import React from 'react';
 import Hero from './Components/Hero';
 import NavBar from './Components/NavBar'; 
-import { BrowserRouter as Router, Switch } from 'react-router-dom';
+import Contact from './Components/Contact'; 
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <div className="whole-body">
-          <NavBar />
+      <div className="whole-body">
+        <NavBar />
+        <Switch>
+          <Route exact path="/">
           <Hero />
-        </div>
+          </Route>
+        <Route exact path="/contact">
+              <Contact /> 
+        </Route> 
       </Switch>
+      </div>
     </Router>
   );
 }

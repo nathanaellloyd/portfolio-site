@@ -5,7 +5,7 @@ function Hero() {
 
     return (
         <Fragment>
-            <div className="hero-title">
+            <div className="blue-square">
                 <div className="hero-title-contents">
                 <h1 className="nate-lloyd">Nate Lloyd</h1>
                 <h2 className="web-developer">Web Developer</h2>

@@ -5,14 +5,7 @@ body {
     align-content: center;
     justify-content: center;
   }
-  .module {
-    width: 300px;
-    height: 300px;
-    display: grid;
-    place-items: center;
-    color: #ff43ea;
-    position: relative;
-  }
+
   .whole-body::before {
     content: "";
     top: 0;
@@ -26,4 +19,13 @@ body {
     filter: blur(0.5px) grayscale(100%);
   }
 
+  .blue-square {
+    width: 400px;
+    height: 500px;
+    display: grid;
+    place-items: center;
+    color: black;
+    background: rgba(173, 216, 230, 0.7);
+    position: relative;
+}
   

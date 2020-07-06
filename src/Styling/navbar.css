@@ -8,9 +8,27 @@ nav {
     position: absolute;
 }
 
-a {
-    padding: 1rem;
-    text-decoration:none;
+@media (min-width: 376px) {
+    a {
+        padding: 1rem;
+        text-decoration:none;
+    }
+}
+
+@media (max-width: 375px) {
+    a {
+        padding: 1.035rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero-title {
+    width: 300px;
+    height: 460px;
+    }
+    a {
+        padding: 1.035rem;
+    }
 }
 
 ul {
