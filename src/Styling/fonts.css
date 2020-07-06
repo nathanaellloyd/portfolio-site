@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "OpenSans";
+    font-weight: normal;
+    src: url("../fonts/OpenSans-Light.ttf");
+    format: ("truetype");
+}
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    font-weight: normal;
+    src: url("../fonts/OpenSans-ExtraBoldItalic.ttf"); 
+    format: ("truetype"); 
+}
+
+@font-face {
+    font-family: "GraffitiPaintBrush";
+    font-weight: normal;
+    src: url("../fonts/GraffitiPaintBrush.ttf");
+    format: ("truetype");
+}
+
+@font-face {
+    font-family: "JungleJam";
+    font-weight: normal;
+    src: url("../fonts/JungleJam.ttf");
+    format: ("truetype");
+}
+
+@font-face { 
+    font-family: "Avenir";
+    font-weight: normal;
+    src: url("../fonts/Avenir.ttc"); 
+    format: ("opentype"); 
+}

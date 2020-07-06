@@ -1,0 +1,26 @@
+.nav-bar {
+    text-align: center;
+    position: relative;
+}
+
+nav {
+    color: black; 
+    position: absolute;
+}
+
+a {
+    padding: 1rem;
+    text-decoration:none;
+}
+
+ul {
+    color: #3f3f3f; 
+    padding-inline-start: 0px;
+}
+
+.link { 
+    font-size: 15px;
+    font-family: "Avenir";
+    color: black; 
+    transition: all 0.3s;
+}

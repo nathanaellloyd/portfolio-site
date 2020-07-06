@@ -1,0 +1,39 @@
+.hero-title {
+    width: 400px;
+    height: 500px;
+    display: grid;
+    place-items: center;
+    color: black;
+    background: rgba(173, 216, 230, 0.7);
+    position: relative;
+}
+
+.hero-title-contents {
+    font-family: "JungleJam";
+    text-align: center;
+}
+
+.nate-lloyd {
+    font-family: "JungleJam";
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.web-developer {
+    font-family: "JungleJam";
+    font-size: 40px;
+    font-weight: 200;
+    
+}
+
+h1 {
+    margin-bottom: 0; 
+}
+
+h2 {
+    margin-top: 0; 
+}
+
+.website-icon {
+    max-width: 200px;
+}
