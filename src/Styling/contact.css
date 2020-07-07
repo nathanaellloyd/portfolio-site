@@ -71,7 +71,7 @@ input {
 
 @media (max-width: 400px) {
     .contact-square {
-        width: 350px;
+        width: 325px;
         height: 100%; 
         display: grid;
         place-items: center;
@@ -80,17 +80,32 @@ input {
         position: relative;
 
     }
+    input {
+        font-family: "Avenir";
+        width: 90%;
+    }
+    textarea {
+        min-height: 200px;
+        resize: vertical;
+        font-size: 20px;
+        border-style: solid;
+        border-color: lightgray;
+        border-width: 2px;
+        padding: 10px;
+    }
 }
 
-textarea {
-    width: 100%;
-    min-height: 200px;
-    resize: vertical;
-    font-size: 20px;
-    border-style: solid;
-    border-color: lightgray;
-    border-width: 2px;
-    padding: 10px;
+@media (min-width: 401px) {
+    textarea {
+        width: 100%;
+        min-height: 200px;
+        resize: vertical;
+        font-size: 20px;
+        border-style: solid;
+        border-color: lightgray;
+        border-width: 2px;
+        padding: 10px;
+    }
 }
 
 button {

@@ -42,6 +42,15 @@ function Contact() {
     console.log((name), (email), (message)); 
   };
 
+  const Emoji = props => (
+    <span
+      className="emoji"
+      role="img"
+    >
+      {props.symbol}
+    </span>
+  )
+
 
   return (
 
@@ -53,8 +62,8 @@ function Contact() {
 
     
     <div className="small-contact-text">
-      <p>nathanaellloyd@live.com</p>
-      <p>07879 698 398</p>
+      <p>nathanaellloyd@live.com<Emoji symbol="✉️"/></p>
+      <p>07879 698 398<Emoji symbol="📱"/></p>
     </div>
 
     <form onSubmit={ sendEmail } name="contact" action="/" method="POST" data-netlify="true" >

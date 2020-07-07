@@ -52,14 +52,14 @@
 }
 
 .nate-lloyd {
-    font-family: "JungleJam";
+    font-family: 'IBM Plex Serif', serif;
     font-size: 50px;
     font-weight: 300;
 }
 
 .web-developer {
-    font-family: "JungleJam";
-    font-size: 40px;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 34px;
     font-weight: 200;
     
 }
@@ -74,4 +74,8 @@ h2 {
 
 .website-icon {
     max-width: 200px;
+}
+
+.header-img {
+    max-width: 300px;
 }

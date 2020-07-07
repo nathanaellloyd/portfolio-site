@@ -6,24 +6,10 @@
 }
 
 @font-face {
-    font-family: "OpenSans-Bold";
-    font-weight: normal;
-    src: url("../fonts/OpenSans-ExtraBoldItalic.ttf"); 
-    format: ("truetype"); 
-}
-
-@font-face {
-    font-family: "GraffitiPaintBrush";
-    font-weight: normal;
-    src: url("../fonts/GraffitiPaintBrush.ttf");
-    format: ("truetype");
-}
-
-@font-face {
     font-family: "JungleJam";
     font-weight: normal;
-    src: url("../fonts/JungleJam.ttf");
-    format: ("truetype");
+    src: url("../fonts/JungleJam.woff");
+    format: ("opentype");
 }
 
 @font-face { 

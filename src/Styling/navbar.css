@@ -1,5 +1,5 @@
 .nav-bar {
-    text-align: center;
+    text-align: left;
     position: relative;
 }
 
@@ -10,7 +10,10 @@ nav {
 
 @media (min-width: 376px) {
     a {
-        padding: 1rem;
+        padding-bottom: 1.0rem;
+        padding-top: 2rem;
+        padding-left: 1rem; 
+        padding-right: 1rem; 
         text-decoration:none;
     }
 }
