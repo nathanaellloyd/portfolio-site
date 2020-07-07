@@ -62,8 +62,8 @@ function Contact() {
 
     
     <div className="small-contact-text">
-      <p>nathanaellloyd@live.com<Emoji symbol="✉️"/></p>
-      <p>07879 698 398<Emoji symbol="📱"/></p>
+      <p>nathanaellloyd@live.com <Emoji symbol="✉️"/></p>
+      <p>07879 698 398 <Emoji symbol="📱"/></p>
     </div>
 
     <form onSubmit={ sendEmail } name="contact" action="/" method="POST" data-netlify="true" >

@@ -6,7 +6,7 @@
         text-align: center;
         place-items: center;
         color: black;
-        background: rgba(173, 216, 230, 0.7);
+        background: rgba(255,255,255, 0.5);
         position: relative;
     } 
 }
@@ -18,12 +18,12 @@
         display: grid;
         place-items: center;
         color: black;
-        background: rgba(173, 216, 230, 0.7);
+        background: rgba(255,255,255, 0.5);
         position: relative;
     }
 }
 
 .coming-soon {
-    font-family: "Avenir";
+    font-family: "IBM Plex Serif";
 }
 
