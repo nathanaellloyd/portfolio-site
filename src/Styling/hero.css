@@ -1,3 +1,29 @@
+@media (min-width: 400px) {
+    .blue-square {
+        width: 400px;
+        height: 500px;
+        display: grid;
+        place-items: center;
+        color: black;
+        background: rgba(173, 216, 230, 0.7);
+        position: relative;
+    } 
+}
+
+@media (max-width: 400px) {
+    .blue-square {
+        width: 300px;
+        height: 400px;
+        display: grid;
+        place-items: center;
+        color: black;
+        background: rgba(173, 216, 230, 0.7);
+        position: relative;
+
+    }
+}
+
+
 @media (max-width: 450px) {
     .hero-title {
     width: 300px;

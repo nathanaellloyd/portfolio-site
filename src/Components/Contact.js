@@ -47,7 +47,15 @@ function Contact() {
 
     <>
     
-    <div className="blue-square">
+    <div className="contact-square">
+
+    <div className="form-wrap">
+
+    
+    <div className="small-contact-text">
+      <p>nathanaellloyd@live.com</p>
+      <p>07879 698 398</p>
+    </div>
 
     <form onSubmit={ sendEmail } name="contact" action="/" method="POST" data-netlify="true" >
 
@@ -96,7 +104,10 @@ function Contact() {
 
 		  </form>
 
-        </div>
+
+      </div>
+
+      </div>
 
         </>
         
