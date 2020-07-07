@@ -1,0 +1,29 @@
+@media (min-width: 400px) {
+    .music-square {
+        width: 500px;
+        height: 100%;
+        display: grid;
+        text-align: center;
+        place-items: center;
+        color: black;
+        background: rgba(173, 216, 230, 0.7);
+        position: relative;
+    } 
+}
+
+@media (max-width: 400px) {
+    .music-square {
+        width: 350px;
+        height: 100%; 
+        display: grid;
+        place-items: center;
+        color: black;
+        background: rgba(173, 216, 230, 0.7);
+        position: relative;
+    }
+}
+
+.coming-soon {
+    font-family: "Avenir";
+}
+
