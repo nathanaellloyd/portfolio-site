@@ -5,6 +5,7 @@ import Contact from './Components/Contact';
 import Music from './Components/Music'; 
 import Work from './Components/Work'; 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Success from './Components/Success';
 
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
           </Route> 
           <Route exact path="/work">
               <Work /> 
+          </Route> 
+          <Route exact path="/success">
+              <Success /> 
           </Route> 
       </Switch>
       </div>

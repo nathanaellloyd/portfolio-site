@@ -1,51 +1,8 @@
-/* @media (max-width: 900px) {
-    form {
-        text-align: center;
-        display: inline-block;
-        min-width: 90%;
-    }
-}
-
-@media (min-width: 901px) {
-    form {
-        text-align: center;
-        display: inline-block;
-        min-width: 30%;
-    }
-} */
-
- /* @media (max-width: 900px) {
-    .input-wrap {
-        margin: 1rem; 
-    }
-}
-
-@media (min-width: 901px) {
-    .input-wrap {
-        margin: 3rem; 
-    }
-} 
- */
-
-/*
-
-@media (min-width: 601px) {
-    .input-button {
-        min-width: 10%;
-    }
-}
-
-@media (max-width: 600px) {
-    .input-button {
-        min-width: 40%;
-    }
-} */
-
 .form-wrap {
     text-align: center;
 }
 
-legend {
+label {
     font-family: "IBM Plex Serif";
     padding-top: 1rem;
     text-align: left;
@@ -58,7 +15,7 @@ input {
 
 @media (min-width: 400px) {
     .contact-square {
-        width: 500px;
+        width: 400px;
         height: 100%;
         display: grid;
         text-align: center;
@@ -71,18 +28,33 @@ input {
 
 @media (max-width: 400px) {
     .contact-square {
-        width: 325px;
+        width: 350px;
         height: 100%; 
         display: grid;
         place-items: center;
         color: black;
         background: rgba(255,255,255, 0.5);
         position: relative;
-
     }
+}
+
+@media (max-width: 330px) {
+    .contact-square {
+        width: 315px;
+        height: 100%; 
+        display: grid;
+        place-items: center;
+        color: black;
+        background: rgba(255,255,255, 0.5);
+        position: relative;
+    }
+    form {
+        margin-left: 1rem;
+    }
+
     input {
         font-family: "IBM Plex Serif";
-        width: 90%;
+        width: 85%;
     }
     textarea {
         min-height: 200px;
@@ -95,9 +67,9 @@ input {
     }
 }
 
-@media (min-width: 401px) {
+@media (min-width: 375px) {
     textarea {
-        width: 100%;
+        width: 90%;
         min-height: 200px;
         resize: vertical;
         font-size: 20px;
@@ -106,6 +78,13 @@ input {
         border-width: 2px;
         padding: 10px;
     }
+    input {
+        width: 90%; 
+    }
+    form {
+        margin: 1rem;
+    }
+
 }
 
 button {
@@ -141,6 +120,11 @@ input {
     border-style: solid;
     border-color: lightgray;
     padding: 10px; 
+}
+
+.input-wrap {
+    margin-top: 1rem;
+    text-align: left;
 }
 
 .small-contact-text {

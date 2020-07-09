@@ -13,7 +13,7 @@
 @media (max-width: 400px) {
     .blue-square {
         width: 300px;
-        height: 400px;
+        height: 500px;
         display: grid;
         place-items: center;
         color: black;
@@ -59,7 +59,7 @@
 
 .web-developer {
     font-family: 'IBM Plex Serif', serif;
-    font-size: 34px;
+    font-size: 25px;
     font-weight: 200;
     
 }
@@ -78,4 +78,16 @@ h2 {
 
 .header-img {
     max-width: 300px;
+}
+
+.li-hero {
+    max-width: 30px;
+}
+
+.gh-hero {
+    max-width: 30px;
+}
+
+.med-hero {
+    max-width: 30px;
 }
