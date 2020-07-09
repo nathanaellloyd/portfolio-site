@@ -75,7 +75,9 @@ function Contact() {
 				/>
         </div>
 
-			<input className='input-button' type='submit' value="Send" />
+        <button type="submit" className="input-button">Send</button>
+
+			{/* <input className='input-button' type='submit' value="Send" /> */}
 
 		  </form>
 
