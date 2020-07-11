@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function Contact() {
 
   const Emoji = props => (
@@ -11,7 +10,6 @@ function Contact() {
       {props.symbol}
     </span>
   )
-
 
   return (
 
