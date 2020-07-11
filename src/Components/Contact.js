@@ -24,7 +24,7 @@ function Contact() {
       <p>07879 698 398 <Emoji symbol="📱"/></p>
     </div>
 
-    <form name="contact" action="/" method="POST" data-netlify="true" >
+    <form name="contact" action="/success" method="POST" data-netlify="true" >
     <input type='hidden' name='form-name' value='contact' />
 
       
