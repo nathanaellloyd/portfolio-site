@@ -1,5 +1,21 @@
+.contact-square {
+    width: 312px;
+    height: 100%; 
+    display: grid;
+    place-items: center;
+    color: black;
+    background: rgba(255,255,255, 0.5);
+    position: relative;
+}
+
 .form-wrap {
     text-align: center;
+}
+
+textarea {
+    height: 200px;
+    display: block;
+    width: 100%;
 }
 
 label {
@@ -11,80 +27,10 @@ label {
 input {
     font-family: "IBM Plex Serif";
     width: 100%;
-}
-
-@media (min-width: 400px) {
-    .contact-square {
-        width: 400px;
-        height: 100%;
-        display: grid;
-        text-align: center;
-        place-items: center;
-        color: black;
-        background: rgba(255,255,255, 0.5);
-        position: relative;
-    } 
-}
-
-@media (max-width: 400px) {
-    .contact-square {
-        width: 350px;
-        height: 100%; 
-        display: grid;
-        place-items: center;
-        color: black;
-        background: rgba(255,255,255, 0.5);
-        position: relative;
-    }
-}
-
-@media (max-width: 330px) {
-    .contact-square {
-        width: 315px;
-        height: 100%; 
-        display: grid;
-        place-items: center;
-        color: black;
-        background: rgba(255,255,255, 0.5);
-        position: relative;
-    }
-    form {
-        margin-left: 1rem;
-    }
-
-    input {
-        font-family: "IBM Plex Serif";
-        width: 85%;
-    }
-    textarea {
-        min-height: 200px;
-        resize: vertical;
-        font-size: 20px;
-        border-style: solid;
-        border-color: lightgray;
-        border-width: 2px;
-        padding: 10px;
-    }
-}
-
-@media (min-width: 375px) {
-    textarea {
-        width: 90%;
-        min-height: 200px;
-        resize: vertical;
-        font-size: 20px;
-        border-style: solid;
-        border-color: lightgray;
-        border-width: 2px;
-        padding: 10px;
-    }
-    input {
-        width: 90%; 
-    }
-    form {
-        margin: 1rem;
-    }
-
+    border-style: solid;
+    border-color: lightgray;
+    height: 30px;
+    padding-left: 5px;
 }
 
 button {
@@ -107,20 +53,15 @@ button {
     text-align:center;
     transition: all 0.2s;
     max-width: 7rem;
-    }
+    cursor: pointer;
+}
 
 .input-button:hover {
     font-family:'IBM Plex Serif',sans-serif;
     color: #353c3a;
     background-color: white;
     border-color: white;
-    }   
-
-input {
-    border-style: solid;
-    border-color: lightgray;
-    padding: 10px; 
-}
+}   
 
 .input-wrap {
     margin-top: 1rem;

@@ -1,29 +1,13 @@
-@media (min-width: 400px) {
-    .work-square {
-        width: 500px;
-        height: 100%;
-        display: grid;
-        text-align: center;
-        place-items: center;
-        color: black;
-        background: rgba(255,255,255, 0.5);
-        position: relative;
-    } 
-}
-
-@media (max-width: 400px) {
-    .work-square {
-        width: 350px;
-        height: 100%; 
-        display: grid;
-        place-items: center;
-        color: black;
-        background: rgba(255,255,255, 0.5);
-        position: relative;
-    }
-}
-
 .coming-soon {
     font-family: "IBM Plex Serif";
 }
 
+.work-square {
+    width: 312px;
+    height: 500px; 
+    display: grid;
+    place-items: center;
+    color: black;
+    background: rgba(255,255,255, 0.5);
+    position: relative;
+}
