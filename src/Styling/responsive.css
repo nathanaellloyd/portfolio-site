@@ -1,0 +1,87 @@
+@media (max-width: 400px) {
+    .blue-square {
+        width: 312px;
+        height: 500px;
+        display: grid;
+        place-items: center;
+        color: black;
+        background: rgba(255,255,255, 0.5);
+        position: relative;
+    }
+
+    .success-square {
+        width: 312px;
+        height: 100%; 
+        display: grid;
+        place-items: center;
+        color: black;
+        background: rgba(255,255,255, 0.5);
+        position: relative;
+    }
+
+    .contact-square {
+        width: 312px;
+        height: 100%; 
+        display: grid;
+        place-items: center;
+        color: black;
+        background: rgba(255,255,255, 0.5);
+        position: relative;
+    }
+}
+
+@media (max-width: 450px) {
+    .hero-title {
+        width: 300px;
+        height: 500px;
+    }
+}
+
+@media (min-width: 376px) {
+
+
+    .hero-title {
+        width: 300px;
+        height: 460px;
+    }
+}
+
+
+@media (max-width: 330px) {
+    .success-square {
+        width: 315px;
+        height: 100%; 
+        display: grid;
+        place-items: center;
+        color: black;
+        background: rgba(255,255,255, 0.5);
+        position: relative;
+    }
+
+    .contact-square {
+        width: 315px;
+        height: 100%; 
+        display: grid;
+        place-items: center;
+        color: black;
+        background: rgba(255,255,255, 0.5);
+        position: relative;
+    }
+    form {
+        margin-left: 1rem;
+    }
+
+    input {
+        font-family: "IBM Plex Serif";
+        width: 85%;
+    }
+    textarea {
+        min-height: 200px;
+        resize: vertical;
+        font-size: 20px;
+        border-style: solid;
+        border-color: lightgray;
+        border-width: 2px;
+        padding: 10px;
+    }
+}

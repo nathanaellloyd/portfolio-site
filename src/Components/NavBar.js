@@ -11,16 +11,16 @@ function NavBar ()  {
             <nav className="nav-bar">
                 <ul>
                     <NavLink exact className="link" to='/' activeClassName="activeLink">
-                        Home
+                        home
+                    </NavLink>
+                    <NavLink exact className="link" to='/aboutme' activeClassName="activeLink">
+                        about me
                     </NavLink>
                     <NavLink exact className="link" to='/work' activeClassName="activeLink">
-                        Work
-                    </NavLink>
-                    <NavLink exact className="link" to='/music' activeClassName="activeLink">
-                        Music
+                        work
                     </NavLink>
                     <NavLink exact className="link" to='/contact' activeClassName="activeLink">
-                        Contact
+                        contact
                     </NavLink>
                 </ul>
             </nav>

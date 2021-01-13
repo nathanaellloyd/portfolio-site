@@ -1,10 +1,10 @@
 import React from 'react'; 
 
-function Music () {
+function About () {
 
     return (
 
-        <div className='music-square'>
+        <div className='about-square'>
         
         <p className="coming-soon">Coming Soon...</p>
 
@@ -12,4 +12,4 @@ function Music () {
     )
 }
 
-export default Music; 
+export default About; 

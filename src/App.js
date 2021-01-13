@@ -2,8 +2,8 @@ import React from 'react';
 import Hero from './Components/Hero';
 import NavBar from './Components/NavBar'; 
 import Contact from './Components/Contact'; 
-import Music from './Components/Music'; 
 import Work from './Components/Work'; 
+import About from './Components/About'; 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Success from './Components/Success';
 
@@ -20,8 +20,8 @@ function App() {
           <Route exact path="/contact">
               <Contact /> 
           </Route> 
-          <Route exact path="/music">
-              <Music /> 
+          <Route exact path="/aboutme">
+              <About /> 
           </Route> 
           <Route exact path="/work">
               <Work /> 
