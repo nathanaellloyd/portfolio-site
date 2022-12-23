@@ -1,13 +1,14 @@
 .coming-soon {
     font-family: "IBM Plex Serif";
+    margin: 0;
 }
 
 .about-square {
     width: 312px;
     height: 500px;
-    display: grid;
-    place-items: center;
     color: black;
     background: rgba(255,255,255, 0.5);
     position: relative;
+    padding: 30px;
+    box-sizing: border-box;
 }

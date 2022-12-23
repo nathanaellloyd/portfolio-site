@@ -1,13 +1,31 @@
-.coming-soon {
+.work-title {
     font-family: "IBM Plex Serif";
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .work-square {
     width: 312px;
-    height: 500px; 
-    display: grid;
-    place-items: center;
+    height: 500px;
     color: black;
     background: rgba(255,255,255, 0.5);
     position: relative;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.view a:hover {
+    background-color: white;
+    padding: 10px;
+}
+
+.website-tile {
+    background-color: rgba(95, 95, 95, 0.4);
+}
+
+.website-tile a {
+    font-family: "IBM Plex Serif";
+    text-decoration: none;
+    color: black;
 }
